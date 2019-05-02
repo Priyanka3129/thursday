@@ -1,0 +1,25 @@
+<html>
+<body>
+<p>Click <p>
+<input type="button" id="b1" value="click" onclick="my()">
+<font size="30">
+<a href="https://lms.ssn.edu.in/login/index.php">lms</a>
+<DL>
+	<DT>ONE IS READY
+		<DD>NOTHING TO SAY
+		</DD>
+	</DT>
+	<DT>TWO IS READY
+		<DD>WASTE TO SAY
+		</DD>
+	</DT>
+</DL>
+<script>
+function my() 
+{
+  var x = document.getElementById("b1").value;
+  x.innerHTML = Math.floor((Math.random() * 100) + 1);
+}
+</script>
+</body>
+</html>
